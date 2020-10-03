@@ -2,19 +2,17 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2bce8974-ffe6-42eb-8680-8ba8c8118d9e/deploy-status)](https://app.netlify.com/sites/houseloan-calc/deploys)
 
-Just a Proof of Competancy and a "self-evaluation-of-skills" 
+Just a Proof of Competancy and a "self-evaluation-of-skills"
 
 Demo: <https://houseloan-calc.netlify.app>
 
-## Created by: Martin Andersen <marnader@pm.me> - Hire me for projects!
+## Created by: Martin Andersen <marnader@pm.me> - Hire me for projects
 
 :D *micdrop*
 
 This is a offline capable serviceWorker react-script experiment.
 
 PS: see lessions.md for topics this repo covers and lessions to be learned from replication.
-
-
 
 In the project directory, you can run:
 
