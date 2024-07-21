@@ -16,16 +16,16 @@ export const CalculatorControls = props => {
 					type="range"
 					className="grid__item--range-slider"
 					id="purchasingHousePrice"  
-					min="50000" 
-					max="7500000" 
+					min="5000" 
+					max="140000" 
 					step="1000" 
-					defaultValue="274000" 
+					defaultValue="125000" 
 					onChange={() => props.handleHouseloanDataChange(
 						parseFloat(document.getElementById('depositAmount').value), 
 						parseFloat(document.getElementById('purchasingHousePrice').value), 
 						parseFloat(document.getElementById('houseloanTerm').value), 
 						parseFloat(document.getElementById('interestRate').value))} />
-				<label className="grid__item--label" htmlFor="purchasingHousePrice">Purchasing House Price</label>
+				<label className="grid__item--label" htmlFor="purchasingHousePrice">Total owed</label>
 			</div>
 			<div className="grid__item">
 				<span className="grid__item--header">{props.depositAmount.toLocaleString('nb-NO', localeOptions)}</span>
@@ -34,9 +34,9 @@ export const CalculatorControls = props => {
 					className="grid__item--range-slider"
 					id="depositAmount" 
 					min="1000" 
-					max="1000000" 
+					max="1250000" 
 					step="1000" 
-					defaultValue="42000" 
+					defaultValue="10000" 
 					onChange={() => props.handleHouseloanDataChange(
 						parseFloat(document.getElementById('depositAmount').value), 
 						parseFloat(document.getElementById('purchasingHousePrice').value), 
@@ -45,15 +45,15 @@ export const CalculatorControls = props => {
 				<label className="grid__item--label" htmlFor="points">Own Capital</label>
 			</div>
 			<div className="grid__item">
-				<span className="grid__item--header">{props.houseloanTerm} Years</span>
+				<span className="grid__item--header">{props.houseloanTerm} yr/mnt </span>
 				<input 
 					type="range"
 					className="grid__item--range-slider"
 					id="houseloanTerm"  
-					min="5" 
-					max="35" 
-					step="1" 
-					defaultValue="15" 
+					min="1" 
+					max="3" 
+					step="0.5" 
+					defaultValue="2" 
 					onChange={() => props.handleHouseloanDataChange(
 						parseFloat(document.getElementById('depositAmount').value), 
 						parseFloat(document.getElementById('purchasingHousePrice').value), 
