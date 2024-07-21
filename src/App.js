@@ -11,7 +11,7 @@ function App() {
 	return (
     	<div className="App">
       		<header>
-        		<h1>House Loan Calculator | by Martin A</h1>
+        		<h1>Pay back plan | by Martin Andersen</h1>
       		</header>
       		<Calculator />
     	</div>
