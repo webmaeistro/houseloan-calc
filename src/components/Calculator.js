@@ -6,8 +6,8 @@ import {PaymentTable} from './PaymentTable';
 
 export const Calculator = () => {
 	const [depositAmount, setDepositAmount] = useState(72000);
-	const [purchasingHousePrice, setPurchasingHousePrice] = useState(285000);
-	const [amountToBorrow, setAmountToBorrow] = useState(213000);
+	const [purchasingHousePrice, setPurchasingHousePrice] = useState(225000);
+	const [amountToBorrow, setAmountToBorrow] = useState(25000);
 	const [houseloanTerm, setHouseloanTerm] = useState(10);
 	const [interestRate, setInterestRate] = useState(2.1);
 	const [monthlyPayment, setMonthlyPayment] = useState(882);
