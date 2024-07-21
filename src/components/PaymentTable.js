@@ -30,7 +30,7 @@ export const PaymentTable = props => {
 					<th className="to-date-yearly-payment">Total Interest Paid</th>
 					<th>Year Principal Repaid</th>
 					<th className="to-date-yearly-payment">Total Principal Repaid</th>
-					<th>Houseloan Balance</th>
+					<th>Debt Balance</th>
 				</tr>
 			</thead>
 			<tbody>
