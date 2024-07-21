@@ -1,15 +1,14 @@
 {
-  "name": "houseloan-calculator",
-  "version": "0.1.1",
+  "name": "uowe-calculator",
+  "version": "1.1.1",
   "private": false,
-  "author": "Martin Andersen <marander@protonmail.com> (@webmaeistro)",
+  "author": "Martin Andersen <paranoia.holding@proton.me> (@webmaeistro)",
   "license": "MIT",
-  "description": "A simple house loan calculator factoring: house price, own capital, diff is house loan and set it over x years",
+  "description": "A simple loan calculator own capital, diff is loan and set it over x years",
   "keywords": [
     "react",
     "calculator",
-    "house",
-    "bankloan"
+    "debdt"
   ],
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
