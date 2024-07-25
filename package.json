@@ -19,7 +19,7 @@
     "react-chartjs-2": "^2.11.2",
     "react-dom": "^16.14.0",
     "react-ga-gtm": "^2.5.3-beta",
-    "react-scripts": "3.4.4"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "npm install && react-scripts start",
