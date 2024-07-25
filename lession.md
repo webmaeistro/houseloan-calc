@@ -16,4 +16,4 @@
 
 Basics of "react and calculations".
 
--Martin Andersen marander@pm.me
+-Martin Andersen <marander@pm.me>

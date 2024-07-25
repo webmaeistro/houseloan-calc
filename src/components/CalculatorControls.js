@@ -16,9 +16,9 @@ export const CalculatorControls = props => {
 					type="range"
 					className="grid__item--range-slider"
 					id="purchasingHousePrice"  
-					min="5000" 
+					min="0000" 
 					max="140000" 
-					step="1000" 
+					step="150" 
 					defaultValue="125000" 
 					onChange={() => props.handleHouseloanDataChange(
 						parseFloat(document.getElementById('depositAmount').value), 
@@ -33,10 +33,10 @@ export const CalculatorControls = props => {
 					type="range"
 					className="grid__item--range-slider"
 					id="depositAmount" 
-					min="1000" 
+					min="10" 
 					max="1250000" 
-					step="1000" 
-					defaultValue="10000" 
+					step="500" 
+					defaultValue="0" 
 					onChange={() => props.handleHouseloanDataChange(
 						parseFloat(document.getElementById('depositAmount').value), 
 						parseFloat(document.getElementById('purchasingHousePrice').value), 
