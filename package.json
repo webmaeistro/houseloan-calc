@@ -1,6 +1,6 @@
 {
-  "name": "-calculator",
-  "version": "1.1.1",
+  "name": "gjeld-calculator",
+  "version": "1.2.1",
   "private": false,
   "author": "Martin Andersen <paranoia.holding@proton.me> (@webmaeistro)",
   "license": "MIT",
