@@ -1,6 +1,6 @@
 {
   "name": "gjeld-calculator",
-  "version": "1.2.1",
+  "version": "1.2.5",
   "private": false,
   "author": "Martin Andersen <paranoia.holding@proton.me> (@webmaeistro)",
   "license": "MIT",
@@ -19,7 +19,7 @@
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.3.1",
     "react-ga-gtm": "^2.5.3-beta",
-    "react-scripts": "5.0.1"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "npm install && react-scripts start",
