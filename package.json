@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
   "name": "uowe-calculator",
   "version": "1.9.1",
-=======
-  "name": "gjeld-calculator",
-  "version": "1.2.5",
->>>>>>> b8c8e32fc29aa8c54617b7fc834cce95c8dfe498
   "private": false,
   "author": "Martin Andersen <paranoia.holding@proton.me> (@webmaeistro)",
   "license": "MIT",
@@ -16,11 +11,7 @@
     "debdt"
   ],
   "dependencies": {
-<<<<<<< HEAD
     "@testing-library/jest-dom": "^4.2.4",
-=======
-    "@testing-library/jest-dom": "^6.4.8",
->>>>>>> b8c8e32fc29aa8c54617b7fc834cce95c8dfe498
     "@testing-library/react": "^16.0.0",
     "@testing-library/user-event": "^14.5.2",
     "chart.js": "^4.4.3",
@@ -28,11 +19,7 @@
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.3.1",
     "react-ga-gtm": "^2.5.3-beta",
-<<<<<<< HEAD
     "react-scripts": "5.0.1"
-=======
-    "react-scripts": "^5.0.1"
->>>>>>> b8c8e32fc29aa8c54617b7fc834cce95c8dfe498
   },
   "scripts": {
     "start": "npm install && react-scripts start",
